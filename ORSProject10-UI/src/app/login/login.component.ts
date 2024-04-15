@@ -15,7 +15,7 @@ import { ServiceLocatorService } from '../service-locator.service';
 
 export class LoginComponent implements OnInit {
 
-  endpoint = "http://localhost:8080/Auth";
+  endpoint = "http://localhost:8084/Auth";
 
   form = {
     error: false,

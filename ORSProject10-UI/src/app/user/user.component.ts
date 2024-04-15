@@ -108,7 +108,7 @@ export class UserComponent extends BaseCtl {
     let phone = null;
     formData.append('file', fileToUpload);
     console.log(this.form.data.id + 'this id number ======');
-    return this.httpClient.post("http://localhost:8080/User/profilePic/" + this.form.data.id, formData);
+    return this.httpClient.post("http://localhost:8084/User/profilePic/" + this.form.data.id, formData);
   }
 
   validateForm(form) {
